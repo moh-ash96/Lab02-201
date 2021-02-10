@@ -116,6 +116,7 @@ switch(day.toUpperCase()){
 }
 fourthQ();
 
+function fifthQ(){
 let read = prompt('Can you read?');
 switch(read.toUpperCase()){
     case 'YES':
@@ -132,6 +133,8 @@ switch(read.toUpperCase()){
         // console.log('Lier🤨');
         alert('Lier 🤨');
 }
+}
+fifthQ();
 
 let userNum= prompt('I have a number in my mind, I\'m expecting you to guess it, you have 4 attempts to get the right answer, What is that number?');
 for (let i = 0; i < 3; i++) {
