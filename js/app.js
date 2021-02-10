@@ -137,22 +137,24 @@ switch(read.toUpperCase()){
 fifthQ();
 
 function sixthQ(){
-let userNum= prompt('I have a number in my mind, I\'m expecting you to guess it, you have 4 attempts to get the right answer, What is that number?');
-for (let i = 0; i < 3; i++) {
+let userNum= prompt('Guess a number between 1 and 10?');
+for (let i = 0; i < 4; i++) {
 
     if (userNum < 3) {
         userNum=prompt('The number is more than that');
     }else if(userNum > 3){
         userNum=prompt('The number is less than that');
     }else if(userNum == 3){
-        alert('correct');
+        alert('Correct');
         score++;
         break;
     }
     
+    if( i==3 ){
+        alert('The correct answer is 3');
+    }
     
 }
-alert('The correct answer is 3');
 }
 
 sixthQ();
@@ -164,10 +166,10 @@ let yup = false;
 
 for (let i = 0; i < 6; i++) {
     let fav = prompt('Guess one of my favorite kitchens?');
-    console.log('in the first loop' + i);
+    // console.log('in the first loop' + i);
 
     for (let j = 0; j < food.length; j++) {
-        console.log('in the second loop' + j);
+        // console.log('in the second loop' + j);
         if (fav == food[j]) {
             alert('Correct answer!');
             yup= true;
@@ -189,7 +191,7 @@ for (let i = 0; i < 6; i++) {
 }
 
 alert('the correct answers are '+ food)
-alert('Your score is ' + score);
 }
-
 seventhQ();
+
+alert('Your score is ' + score + ' Out of 7');
