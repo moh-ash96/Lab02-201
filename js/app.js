@@ -36,7 +36,7 @@ switch(yourName.toUpperCase()){
 }
 firstQ();
 
-
+function secondQ(){
 let internet = prompt('Are you connected to the internet?')
 
 switch(internet.toUpperCase()){
@@ -61,6 +61,8 @@ switch(internet.toUpperCase()){
         alert(lie);
 
 }
+}
+secondQ();
 
 let disappear = prompt('Can you make yourself diappear?');
 
