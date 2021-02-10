@@ -1,4 +1,5 @@
 'use strict';
+
 let score = 0;
 let userName = prompt('What is your name?');
 // console.log(userName);
@@ -7,6 +8,7 @@ alert ('Hello '+ userName + '! ' + 'Let\'s paly a game' );
 let truth = 'Correct, Great job!';
 let lie = 'Incorrect, You should be messing with me ;)';
 
+function firstQ(){
 let yourName = prompt('Is your name ' + userName + '?');
 
 switch(yourName.toUpperCase()){
@@ -31,6 +33,9 @@ switch(yourName.toUpperCase()){
         // console.log(lie);
         alert(lie);
 };
+}
+firstQ();
+
 
 let internet = prompt('Are you connected to the internet?')
 
