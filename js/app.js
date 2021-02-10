@@ -85,6 +85,7 @@ switch(disappear.toUpperCase()){
 }
 thirdQ();
 
+function fourthQ(){
 let wrongDay = 'You have to go back to primary school!';
 
 let day = prompt('Does Sunday come after Monday?')
@@ -112,6 +113,8 @@ switch(day.toUpperCase()){
         // console.log('You are not taking me seriously!');
         alert('You are not taking me seriously!');    
 }
+}
+fourthQ();
 
 let read = prompt('Can you read?');
 switch(read.toUpperCase()){
