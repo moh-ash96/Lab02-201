@@ -64,6 +64,7 @@ switch(internet.toUpperCase()){
 }
 secondQ();
 
+function thirdQ(){
 let disappear = prompt('Can you make yourself diappear?');
 
 switch(disappear.toUpperCase()){
@@ -81,6 +82,8 @@ switch(disappear.toUpperCase()){
         // console.log('I guess you watch alot of sci-fi movies!');
         alert('I guess you watch a lot of sci-fi movies!');            
 }
+}
+thirdQ();
 
 let wrongDay = 'You have to go back to primary school!';
 
