@@ -150,12 +150,14 @@ for (let i = 0; i < 3; i++) {
         break;
     }
     
- 
+    
 }
+alert('The correct answer is 3');
 }
+
 sixthQ();
 
-alert('The correct answer is 3');
+function seventhQ (){
 
 let food = ['chinese', 'italian', 'arabian', 'american'];
 let yup = false;
@@ -180,9 +182,14 @@ for (let i = 0; i < 6; i++) {
         alert('Wrong answer')
         
     }
+
     
 
 
 }
+
 alert('the correct answers are '+ food)
 alert('Your score is ' + score);
+}
+
+seventhQ();
