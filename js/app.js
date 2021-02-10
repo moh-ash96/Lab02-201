@@ -1,4 +1,5 @@
 'use strict';
+
 let score = 0;
 let userName = prompt('What is your name?');
 // console.log(userName);
@@ -7,6 +8,7 @@ alert ('Hello '+ userName + '! ' + 'Let\'s paly a game' );
 let truth = 'Correct, Great job!';
 let lie = 'Incorrect, You should be messing with me ;)';
 
+function firstQ(){
 let yourName = prompt('Is your name ' + userName + '?');
 
 switch(yourName.toUpperCase()){
@@ -31,7 +33,10 @@ switch(yourName.toUpperCase()){
         // console.log(lie);
         alert(lie);
 };
+}
+firstQ();
 
+function secondQ(){
 let internet = prompt('Are you connected to the internet?')
 
 switch(internet.toUpperCase()){
@@ -56,7 +61,10 @@ switch(internet.toUpperCase()){
         alert(lie);
 
 }
+}
+secondQ();
 
+function thirdQ(){
 let disappear = prompt('Can you make yourself diappear?');
 
 switch(disappear.toUpperCase()){
@@ -74,7 +82,10 @@ switch(disappear.toUpperCase()){
         // console.log('I guess you watch alot of sci-fi movies!');
         alert('I guess you watch a lot of sci-fi movies!');            
 }
+}
+thirdQ();
 
+function fourthQ(){
 let wrongDay = 'You have to go back to primary school!';
 
 let day = prompt('Does Sunday come after Monday?')
@@ -102,7 +113,10 @@ switch(day.toUpperCase()){
         // console.log('You are not taking me seriously!');
         alert('You are not taking me seriously!');    
 }
+}
+fourthQ();
 
+function fifthQ(){
 let read = prompt('Can you read?');
 switch(read.toUpperCase()){
     case 'YES':
@@ -119,7 +133,10 @@ switch(read.toUpperCase()){
         // console.log('Lier🤨');
         alert('Lier 🤨');
 }
+}
+fifthQ();
 
+function sixthQ(){
 let userNum= prompt('I have a number in my mind, I\'m expecting you to guess it, you have 4 attempts to get the right answer, What is that number?');
 for (let i = 0; i < 3; i++) {
 
@@ -132,9 +149,15 @@ for (let i = 0; i < 3; i++) {
         score++;
         break;
     }
- 
+    
+    
 }
 alert('The correct answer is 3');
+}
+
+sixthQ();
+
+function seventhQ (){
 
 let food = ['chinese', 'italian', 'arabian', 'american'];
 let yup = false;
@@ -159,9 +182,14 @@ for (let i = 0; i < 6; i++) {
         alert('Wrong answer')
         
     }
+
     
 
 
 }
+
 alert('the correct answers are '+ food)
 alert('Your score is ' + score);
+}
+
+seventhQ();
