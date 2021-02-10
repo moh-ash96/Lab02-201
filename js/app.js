@@ -136,6 +136,7 @@ switch(read.toUpperCase()){
 }
 fifthQ();
 
+function sixthQ(){
 let userNum= prompt('I have a number in my mind, I\'m expecting you to guess it, you have 4 attempts to get the right answer, What is that number?');
 for (let i = 0; i < 3; i++) {
 
@@ -148,8 +149,12 @@ for (let i = 0; i < 3; i++) {
         score++;
         break;
     }
+    
  
 }
+}
+sixthQ();
+
 alert('The correct answer is 3');
 
 let food = ['chinese', 'italian', 'arabian', 'american'];
