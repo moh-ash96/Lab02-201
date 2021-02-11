@@ -2,17 +2,23 @@
     margin-left: 10px;
     margin-right: 10px;
     background-color: #DBDBDB;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 h1{
     padding-top: 10px;
     padding-bottom: 20px;
+    /* position:sticky; */
+    /* top: 10px; */
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
     font-family:'Times New Roman';
     font-weight: bold;
+    color: #0D28FA;
     background-color: #E8E8E8;
+    font-family: 'Dancing Script', cursive;
 }
+
 hr{
     margin: 0%;
     color: black;
@@ -22,7 +28,9 @@ h2{
     margin-top: 5px;
     font-size: 30px;
     font-weight: bold;
+    color: #F50029;
 }
+
 p{
     margin-left: 20px;
     margin-top: 7px;
