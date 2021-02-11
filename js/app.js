@@ -55,7 +55,7 @@ function secondQ() {
 secondQ();
 
 function thirdQ() {
-    let disappear = prompt('Can you make yourself diappear?');
+    let disappear = prompt('Can you make yourself disappear?');
 
     switch (disappear.toUpperCase()) {
         case 'NO':
