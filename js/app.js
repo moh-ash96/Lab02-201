@@ -140,14 +140,14 @@ sixthQ();
 
 function seventhQ() {
 
-    let food = ['chinese', 'italian', 'arabian', 'american'];
+    let food = ['chinese', 'italian', 'arabian', 'american','mexican'];
     let yup = false;
 
     for (let i = 0; i < 6; i++) {
-        let fav = prompt('Guess one of my favorite kitchens?');
+        let fav = prompt('Guess one of my favorite cuisines?');
 
         for (let j = 0; j < food.length; j++) {
-            if (fav == food[j]) {
+            if (fav.toLowerCase() == food[j]) {
                 alert('Correct answer!');
                 yup = true;
                 score++;
@@ -167,7 +167,7 @@ function seventhQ() {
 
     }
 
-    alert('the correct answers are ' + food)
+    alert('The Correct answers are ' + food)
 }
 seventhQ();
 
